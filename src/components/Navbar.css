@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+}
+
+.Navbar {
+    background-color: rgb(196, 111, 62);
+    height: fit-content;
+    padding-bottom: 10px;
+    text-align: center;
+}

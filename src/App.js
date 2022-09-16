@@ -3,15 +3,15 @@ import About from './Pages/About';
 import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
 import './App.css';
+import Navbar from './components/Navbar';
 
 import {HashRouter as Router, Routes, Route, Link, Navigate} from "react-router-dom";
 import ErrorPage from './Pages/ErrorPage';
 function App() {
   return (
-    <Router hashType="hashbang">
-      <div className="App">
-        Hi!
-      </div>
+    <Router>
+      <Navbar />
+      
       <Routes>
         {/* This declares all the potential paths pages can go to */}
         <Route path="/" element={<Home />} />
