@@ -1,6 +1,6 @@
 import Home from './Pages/Home';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, Navigate, Link} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Navigate, Link} from "react-router-dom";
 function App() {
   return (
     <Router>
