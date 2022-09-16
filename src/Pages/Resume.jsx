@@ -1,11 +1,19 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 function Resume() {
+    let navigate = useNavigate();
     return(
         <div>
             <h1>This is the Resume Page</h1>
-            <Link to="/">Click to go home</Link>
+            {/* <Link to="/">Click to go home</Link> */}
+            <button
+                onClick={() => {
+                    navigate("/About");
+                }}
+            >
+                {" "}
+                get home</button>
         </div>
     )
 }

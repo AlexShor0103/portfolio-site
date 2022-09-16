@@ -1,0 +1,56 @@
+/* ul {
+    list-style-type: none;
+} */
+
+/* .Navbar {
+    background-color: rgb(53, 53, 53);
+    height: fit-content;
+    padding-bottom: 10px;
+    text-align: center;
+    
+} */
+
+.NavBarItems {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background: rgb(53, 53, 53);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.NavBarTitle {
+    color: #fff;
+    justify-self: start;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.MenuChoices {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    background-color: #f59964;
+    font-weight: 500px;
+    font-family: 'Montserrat';
+    color:rgb(53, 53, 53);
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}

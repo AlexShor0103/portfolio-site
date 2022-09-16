@@ -3,7 +3,7 @@ import About from './Pages/About';
 import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 import {HashRouter as Router, Routes, Route, Link, Navigate} from "react-router-dom";
 import ErrorPage from './Pages/ErrorPage';
