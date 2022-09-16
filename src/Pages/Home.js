@@ -6,13 +6,13 @@ function Home() {
             <h1>This is the Home Page</h1>
             <ul>
                 <li>
-                    <a href="/About"> about</a>
+                    <a href="/portfolio-site/About"> about</a>
                 </li>
                 <li>
-                    <a href="/Resume"> Resume</a>
+                    <a href="/portfolio-site/Resume"> Resume</a>
                 </li>
                 <li>
-                    <a href="/Projects"> Projects</a>
+                    <a href="/portfolio-site/Projects"> Projects</a>
                 </li>
             </ul>
         </div>

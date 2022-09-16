@@ -4,7 +4,7 @@ import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
 import './App.css';
 
-import {HashRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Link, Navigate} from "react-router-dom";
 function App() {
   return (
     <Router>
@@ -12,11 +12,12 @@ function App() {
         Hi!
       </div>
       <Routes>
-        {/* <Route path="/" element={<Navigate to="/portfolio-site" replace />} /> */}
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About/>} />
-        <Route path="/Resume" element={<Resume />} />
-        <Route path="/Projects" element={<Projects />} />
+        {/* This declares all the potential paths pages can go to */}
+        <Route path="/portfolio-site" element={<Home />} />
+        <Route path="/portfolio-site/About" element={<About />} />
+        <Route path="/portfolio-site/Resume" element={<Resume />} />
+        <Route path="/portfolio-site/Projects" element={<Projects />} />
+        
 
       </Routes>
     </Router>
