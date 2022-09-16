@@ -8,7 +8,8 @@ function App() {
         Hi!
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Navigate to="/portfolio-site" replace />} />
+        <Route path="/portfolio-site" element={<Home />} />
       </Routes>
     </Router>
     
