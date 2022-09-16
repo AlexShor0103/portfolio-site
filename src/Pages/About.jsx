@@ -1,10 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 function About() {
     return(
         <div>
             <h1>This is the About Page</h1>
-            <a href = "/portfolio-site"> click to go Home</a>
+            <Link to="/">Click to go home</Link>
         </div>
     )
 }

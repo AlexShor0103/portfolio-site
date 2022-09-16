@@ -1,10 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Resume() {
     return(
         <div>
             <h1>This is the Resume Page</h1>
-            <a href = "/portfolio-site"> click to go Home</a>
+            <Link to="/">Click to go home</Link>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Home() {
     return(
@@ -6,13 +7,13 @@ function Home() {
             <h1>This is the Home Page</h1>
             <ul>
                 <li>
-                    <a href="/portfolio-site/About"> about</a>
+                    <Link to="/About">About</Link>
                 </li>
                 <li>
-                    <a href="/portfolio-site/Resume"> Resume</a>
+                    <Link to="/Projects">Projects</Link>
                 </li>
                 <li>
-                    <a href="/portfolio-site/Projects"> Projects</a>
+                    <Link to="/Resume">Resume</Link>
                 </li>
             </ul>
         </div>

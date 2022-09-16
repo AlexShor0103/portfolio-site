@@ -4,20 +4,22 @@ import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
 import './App.css';
 
-import {BrowserRouter as Router, Routes, Route, Link, Navigate} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Link, Navigate} from "react-router-dom";
+import ErrorPage from './Pages/ErrorPage';
 function App() {
   return (
-    <Router>
+    <Router hashType="hashbang">
       <div className="App">
         Hi!
       </div>
       <Routes>
         {/* This declares all the potential paths pages can go to */}
-        <Route path="/portfolio-site" element={<Home />} />
-        <Route path="/portfolio-site/About" element={<About />} />
-        <Route path="/portfolio-site/Resume" element={<Resume />} />
-        <Route path="/portfolio-site/Projects" element={<Projects />} />
-        
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Resume" element={<Resume />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="*" element={<ErrorPage />} />
+        {/* <Route path="/" element={<Navigate to="/portfolio-site" replace />} /> */}
 
       </Routes>
     </Router>
