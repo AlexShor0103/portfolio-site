@@ -1,0 +1,18 @@
+.TitleBox {
+    margin: 0;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:30vw;
+    padding: 50px 10vw 0px;
+}
+
+.TextBox {
+    /* margin-top: 20vw; */
+    inline-size: 40%;
+}
+
+.BiggerBoyText {
+    font-size: 20px;
+}

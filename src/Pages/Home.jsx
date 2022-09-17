@@ -1,21 +1,20 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import './Home.css'
 
 function Home() {
     return(
-        <div>
-            <h1>This is the Home Page</h1>
-            <ul>
-                <li>
-                    <Link to="/About">About</Link>
-                </li>
-                <li>
-                    <Link to="/Projects">Projects</Link>
-                </li>
-                <li>
-                    <Link to="/Resume">Resume</Link>
-                </li>
-            </ul>
+        <div className="TitleBox">
+            <div className="TextBox">
+                <h1>This is the home page</h1>
+                <p className="BiggerBoyText">
+                    Here is where I'd like to talk about myself. I am a (aspiring) UX designer (still getting there)!
+                    I will definitely add more to this homepage I swear but right now is just setup!!
+                </p>
+            </div>
+            <div className="sampleImg">
+                "IMG HERE"
+            </div>
         </div>
     )
 }

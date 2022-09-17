@@ -17,15 +17,17 @@
     background: rgb(53, 53, 53);
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
 }
 
 .NavBarTitle {
     color: #fff;
     justify-self: start;
-    margin-left: 0px;
+    margin-left: 25px;
     cursor: pointer;
 }
 
@@ -37,13 +39,14 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-
 }
 
 .nav-links {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .nav-links:hover {
@@ -51,6 +54,6 @@
     font-weight: 500px;
     font-family: 'Montserrat';
     color:rgb(53, 53, 53);
-    border-radius: 4px;
+    /* border-radius: 4px; */
     transition: all 0.2s ease-in;
 }
