@@ -9,7 +9,7 @@ function Resume() {
             {/* <Link to="/">Click to go home</Link> */}
             <button
                 onClick={() => {
-                    navigate("/About");
+                    navigate("/UXWork");
                 }}
             >
                 {" "}

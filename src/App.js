@@ -1,7 +1,7 @@
 import Home from './Pages/Home';
-import About from './Pages/About';
+import About from './Pages/GDesign';
 import Resume from './Pages/Resume';
-import Projects from './Pages/Projects';
+import Projects from './Pages/UXWork';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 
@@ -15,9 +15,9 @@ function App() {
       <Routes>
         {/* This declares all the potential paths pages can go to */}
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/GDesign" element={<About />} />
         <Route path="/Resume" element={<Resume />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route path="/UXWork" element={<Projects />} />
         <Route path="*" element={<ErrorPage />} />
         {/* <Route path="/" element={<Navigate to="/portfolio-site" replace />} /> */}
 

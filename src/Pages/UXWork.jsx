@@ -1,7 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom"
 
-function Projects() {
+
+function UXWork() {
     return(
         <div>
             <h1>I've worked on...</h1>
@@ -9,4 +9,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default UXWork;
